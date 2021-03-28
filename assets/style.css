@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-:root{
-    --primary-col:#97D7DA;
-    --off-white:;
-    --bg-col:#ECFDF5;
+
+:root {
+    --primary-col: #97D7DA;
+    --off-white: ;
+    --bg-col: #ECFDF5;
 }
-body{
-    font-family: Poppins,sans-serif;
+
+body {
+    font-family: Poppins, sans-serif;
     /*background-color:var(--primary-col);*/
 }
-.hero
-{
-margin:8rem 2rem;
-padding: 4 rem 1rem;
+
+.hero {
+    margin: 8rem 2rem;
+    padding: 4 rem 1rem;
 }
-.heading{
-margin-top: 3em;
+
+.heading {
+    margin-top: 3em;
 
 }
-h1{
+
+h1 {
     text-align: center;
-     display: block;
+    display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -28,21 +32,25 @@ h1{
     font-weight: bold;
 
 }
-   .bg{
-       background-color: var(--bg-col);
-   }
+
+.bg {
+    background-color: var(--bg-col);
+}
+
 .navigation {
-        background-color: #97D7DA;
-        color: white;
-        padding:    2rem 0.5rem;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        width: auto;
-        height: 70%;
-    }
-    .content{
-        font-size: 20px;
-    }
+    background-color: #97D7DA;
+    color: white;
+    padding: 2rem 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: auto;
+    height: 70%;
+}
+
+.content {
+    font-size: 20px;
+}
+
 .link {
     margin: 2rem 1rem;
     text-decoration: none;
@@ -53,7 +61,8 @@ h1{
     color: rgb(0, 6, 10);
     text-align: center;
 }
-.code{
+
+.code {
     text-decoration: none;
     background-color: slategrey;
     text-align: justify;
@@ -61,84 +70,98 @@ h1{
     padding: 0.5rem 1rem;
 
 }
-.img1{
+
+.img1 {
     padding: 0.5rem 0rem;
     max-height: 300px;
-   max-width: 200px;
+    max-width: 200px;
     display: inline;
 }
-h2{
+
+h2 {
     padding: 0rem 0rem;
     font-size: 30px;
     font-weight: bold;
 
 }
-.con-cen{margin: 0.5rem 2em;
+
+.con-cen {
+    margin: 0.5rem 2em;
     padding: 0rem 2rem;
 
 }
-#high{
+
+#high {
     color: var(--primary-col);
     font-weight: bold;
     font-size: 35px;
 }
+
 .link-primary {
-    background-color:var(--primary-col);
+    background-color: var(--primary-col);
     border-radius: 0.5rem;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 
 }
-.link-sec{
-    background-color:slateblue;
+
+.link-sec {
+    background-color: slateblue;
     border-radius: 0.5rem;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 
 }
-  .no-bullets .ul{
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-    }
 
-
-
-.no-bullets{
-list-style:none;
-padding-inline-start: 0px;
+.no-bullets .ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
-.list-inline{
+
+
+
+.no-bullets {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-inline {
     display: inline;
 }
-.picz{
+
+.picz {
     padding: 2 rem;
     padding-top: 5rem;
 }
-.footer{
-    background-color:var(--primary-col);
+
+.footer {
+    background-color: var(--primary-col);
     color: white;
-    padding:    2rem 0.5rem;
+    padding: 2rem 0.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     width: auto;
     height: 70%;
     text-align: center;
 }
-.footer-header{
-    font-size:25px;
+
+.footer-header {
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
-.container{
-    padding :2rem 1rem;
-text-align: center;
+
+.container {
+    padding: 2rem 1rem;
+    text-align: center;
 }
-.container-center{
+
+.container-center {
     text-align: center;
 }
 
@@ -155,9 +178,28 @@ text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
-.link .link-primary{
-    display:inline;
-}
-.footer .ul .li{
+
+.link .link-primary {
     display: inline;
+}
+
+.footer .ul .li {
+    display: inline;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width:600px) {
+
+    .link-icon{
+        font-size: 10px;
+    }
+    .con-cen{
+        margin: 0px;
+        padding: 0px 0.8rem;
+    }
+    .link{
+        margin: 0.5rem;
+    }
 }
